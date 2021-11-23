@@ -34,7 +34,7 @@ while (current < end)
         HtmlNodeCollection col = meal.SelectNodes(".//div[contains(@class,'col-xs-9')]");
         if (col is null) continue;
 
-        if (mealName == "brunch" || mealName == "breakfast")
+        if (mealName is "brunch" or "breakfast")
         {
             firstDay = firstDay.AddDays(1);
             text.Append($"\n{firstDay.DayOfWeek}, {firstDay.ToShortDateString()}\n");
