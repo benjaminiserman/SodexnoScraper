@@ -1,8 +1,8 @@
 ﻿using System;
-using HtmlAgilityPack;
+using System.IO;
 using System.Linq;
 using System.Text;
-using System.IO;
+using HtmlAgilityPack;
 
 string address = "https://menus.sodexomyway.com/BiteMenu/MenuOnly?menuId=15109&locationId=10344001&whereami=http://dsu.sodexomyway.com/dining-near-me/trojan-marketplace";
 
