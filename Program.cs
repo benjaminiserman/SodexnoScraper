@@ -75,6 +75,7 @@ while (current < end)
                         }
                     }
                 }
+
                 text.AppendLine(result);
             }
         }
