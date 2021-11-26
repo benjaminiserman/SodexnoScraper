@@ -49,7 +49,7 @@ while (current < end)
             if (!string.IsNullOrWhiteSpace(result))
             {
                 HtmlNodeCollection allergens = x.SelectSingleNode("div[@id]")?.SelectNodes("img");
-                if (allergens != null)
+                if (allergens is not null)
                 {
                     bool foundAllergen = false;
                     bool foundV = false;
@@ -70,7 +70,7 @@ while (current < end)
                                 foundAllergen = true;
                             }
 
-                            if (s.Contains("contains")) result += s.Substring("contains".Length);
+                            if (s.Contains("contains")) result += s["contains".Length..];
                             else result += $" {s}";
                         }
                     }
