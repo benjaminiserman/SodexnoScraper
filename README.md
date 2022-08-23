@@ -24,4 +24,4 @@ The start and end dates are fixed right now. If you'd like it changed to take us
 
 ## License
 
-![License](https://img.shields.io/github/license/winggar/SodexoScraper?style=for-the-badge)
+![License](https://img.shields.io/github/license/winggar/SodexnoScraper?style=for-the-badge)
